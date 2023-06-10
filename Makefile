@@ -22,6 +22,7 @@ CFLAGS += -Wall -Wextra -Wpedantic -Wredundant-decls -Wshadow -Wpointer-arith -O
 LIBDIR ?= $(ROOT)/lib
 
 all:
+	git submodule update --remote
 	cd libpmu && $(MAKE) && mv libpmu.so ../lib && cd ..
 	cd GPQHE  && mkdir -p lib && cd src && $(MAKE) && cd .. && mv lib/libgpqhe.so ../lib && rm -r lib && cd ..
 	cd src    && $(MAKE)
