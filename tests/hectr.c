@@ -19,9 +19,9 @@
  */
 
 #define _GNU_SOURCE
-#include "../hectr/hectr.h"
-#include "../gpqhe/gpqhe.h"
-#include "../pmu/pmu.h"
+#include "../src/hectr.h"
+#include "../GPQHE/src/gpqhe.h"
+#include "../libpmu/pmu.h"
 
 static void test_quadprog()
 {
