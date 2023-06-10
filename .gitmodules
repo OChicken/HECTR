@@ -1,0 +1,6 @@
+[submodule "GPQHE"]
+	path = GPQHE
+	url = https://github.com/OChicken/GPQHE.git
+[submodule "libpmu"]
+	path = libpmu
+	url = https://github.com/OChicken/libpmu.git
