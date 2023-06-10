@@ -32,7 +32,7 @@
 #include <string.h>
 #include <math.h>
 #include <lapacke.h>
-#include "../gpqhe/gpqhe.h"
+#include "../GPQHE/src/gpqhe.h"
 
 BEGIN_DECLS
 

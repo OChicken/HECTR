@@ -19,8 +19,8 @@
  */
 
 #include "hectr.h"
-#include "../pmu/pmu.h"
-#include "../gpqhe/gpqhe.h"
+#include "../libpmu/pmu.h"
+#include "../GPQHE/src/gpqhe.h"
 #include <stdio.h>
 
 BEGIN_DECLS
