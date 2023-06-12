@@ -2,6 +2,12 @@
 
 (Leveled) Homomorphic Encrypted (Model Predictive) ConTRoller
 
+## Description
+
+![mpc](doc/mpc.svg)
+
+![hempc](doc/hempc.svg)
+
 ## How to use
 
 ```sh
